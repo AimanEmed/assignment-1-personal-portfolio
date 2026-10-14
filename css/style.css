@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f4f8;
+  padding: 20px;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+/* Helper Clear for Float */
+.clear {
+  clear: both;
+}
+
+/* Header Section */
+.header {
+  background-color: #15437f;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 16px;
+  color: #a9cce3;
+  margin-bottom: 25px;
+}
+
+.nav-links a {
+  color: #fff;
+  background-color: #ffffff1a;
+  padding: 8px 20px;
+  margin: 0 5px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid #ffffff33;
+}
+
+/* Main Sections Card Style */
+.card-section {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 25px;
+}
+
+.card-section h2 {
+  color: #15437f;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.card-section hr {
+  color: #eaeaea;
+  margin-bottom: 20px;
+}
+.about-img {
+  float: left;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 25px;
+  border: 3px solid #9cb7db;
+}
+
+.about-content{
+  margin-bottom: 35px;
+}
+.about-content p {
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.btn-github {
+  background-color: #0066cc;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* My Skills Section */
+.skills-desc {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.skill-box {
+  float: left;
+  width: 18%;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 20px 15px;
+  margin-right: 18px;
+  height: 100px;
+}
+.skill-box h3 {
+  color: #0066cc;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.skill-box p {
+  font-size: 13px;
+  color: #555;
+}
+
+/* Experience Section */
+.exp-item {
+  border: 1px solid #e3e8f0;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fafbfc;
+  border-left: 4px solid #0066cc;
+}
+.exp-item .exp-img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  margin-right: 25px;
+  border: 1px solid #9cb7db;
+}
+
+.exp-item h3 {
+  font-size: 16px;
+  color: #111;
+  margin-bottom: 5px;
+}
+
+.company-name {
+  color: #0066cc;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.exp-date {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 12px;
+}
+
+.exp-desc {
+  font-size: 13px;
+  color: #444;
+}
+
+/* Contact Me Section */
+.contact-section {
+  background-color: #15437f;
+  color: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 25px;
+}
+
+.contact-section h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  color: #a9cce3;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.contact-btn {
+  background-color: #ffffff1a;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid #ffffff33;
+}
+
+/* Footer */
+.Footer {
+  background-color: #0b2246;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 13px;
+}
+
+.Footer span {
+  color: #5dade2;
+}
